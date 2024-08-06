@@ -380,7 +380,7 @@ local function got()
 	set(1,5,'╟───────────────────────────────────────────────╢')
 	setBackground(0x40e0d0)
 	fill(1,1,74,1,' ')
-	set(23,1,'Advanced BIOS setup utility')
+	set(23,1,'Lenivo BIOS setup utility')
 	setBackground(0x0000af)
 	fill(1,2,74,1,' ')
 	setForeground(0xcdcdcf)
@@ -864,7 +864,7 @@ local function HiMenu() -- меню приветствия
 	setBackground(0) -- на случай если запуск производится после ошибки биоса (синего экрана)
 	fillBackground() -- заливка чёрным цветом ^^^
 
-	set(11,1,'Advanced BIOS by titan123023')
+	set(11,1,'Lenivo Corp Inc')
 	set(7,15,'Press F12 to enter the settings menu')
 	set(8,16,'Press any key to skip this message')
 
